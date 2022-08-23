@@ -19,7 +19,7 @@ class Package():
         self.weightKg=weightKg
         self.customer=Customer
 
-    def Calculate(self):
+    def calculate(self):
         calculate = self.weightKg*1000
         # print(f'El pesoi en gramos: {calculate} ')
         pass

@@ -7,5 +7,5 @@ class Standardpackage(Package):
 
         self.quota=quota
     
-    def Calculate(self):
-        return super().Calculate()
+    def calculate(self):
+        return super().calculate()
