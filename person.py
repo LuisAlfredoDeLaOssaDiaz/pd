@@ -1,6 +1,7 @@
 # from abc import ABC, abstractmethod
 # from .enumerate import PersonType
 # from abc import ABC, abstractmethod
+from xmlrpc.client import boolean
 import location
 
 class Person():
@@ -21,4 +22,8 @@ class Person():
         self.name = name
         self.email = email
         self.last_name = last_name
-        location: location.Location
+        self.location_: location.Location
+        self.success:bool
+
+    def biometricvalidation(self):
+        self.success = 0

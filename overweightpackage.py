@@ -7,5 +7,5 @@ class Overweightpackage(package.Package):
 
         self.overweight=overweight
 
-    def calculate(self):
+    def calculate(self) -> float:
         pass
